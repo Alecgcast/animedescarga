@@ -1,3 +1,14 @@
+Sevida AnimeD 1.2.2 Rev
+* Modificado Hint Tooltip Efecto sin animación
+* Modificado el título de posts recientes ahora con un nuevo estilo
+* Añadidos Favicons para dispositivos Apple, MSAplication y Vectorial
+- Fix a Schema.org (Datos Estructurados)
+- Movidas las imágenes gráficas a un servidor CDN
+- Implementado dns-prefetch para mejorar carga entre servidores
+- Fix al Meta Title estaba duplicado
+- Fix a una regla css que ocasionaba que la flechita de un menú se mostrara fuera
+- Reducido el codigo generado por blogger en las plantillas
+
 Sevida AnimeD 1.2.1 (Update)
 * Actualizado FontAwesome a versión 4.7.0
 - Fix al logo que se mostraba sin estilo (cambio a trazo)
@@ -8,6 +19,7 @@ Sevida AnimeD 1.2
 - Eliminado el Meta <b:include data='blog' name='all-head-content'/> que añade los códigos meta generados por Blogger
 - Fix a un error en los meta Faltaban los Feeds y Favicon
 - Fix a un error en los botones de paginación de los posts se mostraban al revés
+- Fix al Widget de configuración por defecto estaba oculto
 - Implementada la fuente AderaSSK del logo del sitio
 
 Sevida AnimeD 1.1 
