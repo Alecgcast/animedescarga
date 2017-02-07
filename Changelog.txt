@@ -1,8 +1,13 @@
+Sevida AnimeD 1.3 (Update)
+* Añadido AddThis (Botones Sociales) al sitio
+* Añadido Tabbed Toc (Listado de las entradas del blog) con Javascript y CSS
+- Eliminados los botones de compartir anteriores (el css sigue en línea, en espera para eliminar)
+- Fix a Schema.org (Datos Estructurados)
+
 Sevida AnimeD 1.2.2 Rev
 * Modificado Hint Tooltip Efecto sin animación
 * Modificado el título de posts recientes ahora con un nuevo estilo
 * Añadidos Favicons para dispositivos Apple, MSAplication y Vectorial
-- Fix a Schema.org (Datos Estructurados)
 - Movidas las imágenes gráficas a un servidor CDN
 - Implementado dns-prefetch para mejorar carga entre servidores
 - Fix al Meta Title estaba duplicado
@@ -11,7 +16,7 @@ Sevida AnimeD 1.2.2 Rev
 
 Sevida AnimeD 1.2.1 (Update)
 * Actualizado FontAwesome a versión 4.7.0
-- Fix al logo que se mostraba sin estilo (cambio a trazo)
+- Fix al logo que se mostraba sin estilo (SVG:cambio a trazo)
 - Eliminada la fuente AderaSSK del sitio ya que no tiene ningún uso
 - Fix al Favicon que estaba en HTTP y no permitía conexiones seguras cambiado a HTTPS
 
