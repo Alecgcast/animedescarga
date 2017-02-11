@@ -1,0 +1,58 @@
+<div style="text-align: center;">
+<h2>Titulo-aqui</h2>
+[img src="imagen-portada"/]
+[info title="<b>Sinopsis / Argumento</b>" icon="info-circle"]
+argumento
+[/info]
+<br />
+<br />
+[info title="<b>Información Técnica</b>" icon="info-circle"]
+<b>Título:</b> aqui
+<br />
+<b>Tipo:</b> ***
+<br />
+<b>Género:</b> ***
+<br />
+<b>Episodios:</b> **
+<br />
+<b>Duración:</b> **
+<br />
+<b>Emitido:</b> **
+[/info]
+<br />
+<br />
+[info title="<b>Datos Técnicos</b>" icon="info-circle"]
+<b>Idioma Audio:</b><img height="26px" src="https://cdn.animedtv.ml/img/jp.svg" style="border: none;" width="26px" /> Japonés
+<br />
+<b>Idioma Subtitulos:</b><img height="26px" src="https://cdn.animedtv.ml/img/es.svg.png" style="border: none;" width="26px" /> Español
+<br />
+<b>Tamaño:</b> % MB
+<br />
+<b>Fansub:</b> ***
+<br />
+<b>Resolución:</b> 720p / 1080p 
+<br />
+<b>Subtitulo:</b> Español (Latino/España) (Todos de Crunchyroll)
+<br />
+<b>Contenedor:</b> MKV
+<br />
+<b>Servidores:</b> <img height="27px" src="https://cdn.animedtv.ml/img/mtorrent_icon.svg" style="border: none;" width="27px" />Torrent | <img height="26px" src="https://cdn.animedtv.ml/img/1fichier_icon.png" style="border: none;" width="26px" />1Fichier | <img height="27px" src="https://cdn.animedtv.ml/img/mega_icon.svg" style="border: none;" width="27px" />MEGA
+[/info]
+<br />
+<br />
+[info title="<b>Capturas</b>" icon="info-circle"]
+[img src="captura1"][/img]
+[img src="captura2"][/img]
+[img src="captura3"][/img]
+</div>
+[/info]
+[info title="<b>Lista de Capítulos</b>" icon="info-circle"]
+<b>Capítulo 1:</b> Anime - 1 <b style="color: red;">[No disponible]</b><br />
+<b>Capítulo 2:</b> Anime - 2<br />
+<b>Capítulo 3:</b> Anime - 3<br />
+<b>Capítulo 4:</b> Anime - 4 <b style="color: cyan;">[Subiendo]</b><br />
+<b>Capítulo 3:</b> Anime - 5
+[/info]
+<br />
+<br />
+<a class="button large green" href="link-aqui"><i class="fa fa-download"></i> Descargar</a>
