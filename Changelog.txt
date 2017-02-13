@@ -1,3 +1,15 @@
+Sevida AnimeD 2.0 (Release)
+– Actualización a lienzo 2.5 que incluye las siguiente correcciones y mejoras:
+- Improvada la Versión Widget y Versión Limpia
+* Posts Recomendados
+* Widget Complex por estilo de etiquetas
+* Comentarios Spot.IM
+* Widget Complex
+* Jquery versión 1.11.3
+* Mega Menu Estilo Carrusel
+- Fix Schema.org
+- Optimizado para PageSpeed Insights
+
 Sevida AnimeD 1.3 (Update)
 * Añadido AddThis (Botones Sociales) al sitio
 * Añadido Tabbed Toc (Listado de las entradas del blog) con Javascript y CSS
