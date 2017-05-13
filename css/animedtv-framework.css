@@ -2,7 +2,7 @@
 Name: Re:DTV Framework
 Site URI: http://animedescarga.ml
 Description: Framework destined to design for website AnimeDescarga impulsed by AnimeDTV, NET.
-Version: 2.5
+Version: 2.7
 Author: Alec G - AnimeDescarga.ml
 Author URI: http://google.com/+AnimeDTV_LA
 */
@@ -170,6 +170,29 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
     margin-right: 3px;
     
 }
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    -webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+	        border-radius: 4px;
+}
+.badge {
+	display: inline-block;
+	min-width: 10px;
+	padding: 3px 7px;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	background-color: #777;
+	border-radius: 10px
+}
 .calidad > a {
     text-decoration: none;
     color: #fff;
@@ -253,6 +276,12 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 	left: 255px;
 	top: 7px;
 }
+.gdrts-rating-thanks {
+	position: absolute;
+	left: 140px;
+	top: 30px;
+	font-size: 13px;
+}
 @media only screen and (max-width: 535px) {
 	.gdrts-rating-user {
 		display: none;
@@ -262,10 +291,11 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 	.gdrts-shortcode-wrapper, .gdrts-shortcode-stars-rating, .mobile {
 		display: none;
 	}
-	.vc_col-sm-9 > .vc_column-inner .wpb_wrapper {
-		margin-top: 10px;
+	.wp-h1 {
+		margin-bottom: 6px;
+		margin-top: 12px;
 	}
-	.wp-field {
+	.wp-field, .wp_field-meta {
 		width: 100%;
 		line-height: 25px;
 	}
