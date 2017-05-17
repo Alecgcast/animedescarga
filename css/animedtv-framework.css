@@ -2,7 +2,7 @@
 Name: Re:DTV Framework
 Site URI: http://animedescarga.ml
 Description: Framework destined to design for website AnimeDescarga impulsed by AnimeDTV, NET.
-Version: 2.7
+Version: 3.0
 Author: Alec G - AnimeDescarga.ml
 Author URI: http://google.com/+AnimeDTV_LA
 */
@@ -33,15 +33,15 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 }
 /*custom title box*/
 .wpcustom-titlebox {
-    border: 1px dashed #c0c0c0;
+    border: 1px dashed #ffb700;
     margin: 0 0 2em 0;
     padding: 1em 1.24em 0.74em;
     position: relative;
     clear: both;
-    background: #f6f6f6;
+    background: #f5f5f5;
 }
 .wpcustom-titlebox-title {
-    color: #c0c0c0;
+    color: #adadad;
     background: none repeat scroll 0 0 white;
     float: left;
     font-size: 16px;
@@ -53,10 +53,10 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
     position: absolute;
     text-transform: uppercase;
     top: -13px;
-    border: 1px solid #c0c0c0;
+    border: 1px solid #ffb700;
     -webkit-border-radius: 2px;
        -moz-border-radius: 2px;
-            border-radius: 2px;
+            border-radius: 5px;
 }
 /*fix for line space*/
 .wpcustom-titlebox > p {
@@ -126,7 +126,7 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
     padding-left: 3px;
     padding-right: 3px;
     -webkit-border-radius: 5px;
-	   -moz-border-radius: 5px;
+       -moz-border-radius: 5px;
 	        border-radius: 5px;
     background: #ffa216;
     font-weight: bold;
@@ -160,15 +160,16 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 .date, .runtime, .year, .episodes { 
     padding: 0 4px 0 4px;
     margin-right: 3px;
-    border: 1px solid #ebebeb;
-    -webkit-border-radius: 3px;
-       -moz-border-radius: 3px;
-            border-radius: 3px;
+    border: 1px solid #ff9000;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+	background-color: rgba(242, 129, 1, 0.1);
+	color: #000;
 }
 .genre, .date {
     font-weight: 500;
     margin-right: 3px;
-    
 }
 .breadcrumb {
     padding: 8px 15px;
@@ -179,11 +180,11 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 	   -moz-border-radius: 4px;
 	        border-radius: 4px;
 }
-.badge {
+.badge, .genre > a {
 	display: inline-block;
 	min-width: 10px;
 	padding: 3px 7px;
-	font-size: 12px;
+	font-size: 11px;
 	font-weight: 700;
 	line-height: 1;
 	color: #fff;
@@ -192,6 +193,17 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 	vertical-align: middle;
 	background-color: #777;
 	border-radius: 10px
+}
+.genre > a {
+    padding: 4px 9px;
+	background-color: rgba(242, 129, 1, 0.1);
+	color: #ff9000;
+	font-weight: 700;
+    border: 1px solid #ff9000;
+}
+.genre > a:hover {
+	background-color: #ff9000;
+	color: #fff;
 }
 .calidad > a {
     text-decoration: none;
@@ -214,12 +226,14 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
     min-width: 200px;
 }
 .wp_field-meta {
-    padding: 2px 6px 2px 6px;
+    background-color: rgba(242, 129, 1, 0.1);
+    color: #000;
+    padding: 2.5px 6px 2.5px 6px;
     margin-right: 5px;
-    border: 1px solid #e4e4e4;
-    -webkit-border-radius: 3px;
-       -moz-border-radius: 3px;
-            border-radius: 3px;
+    border: 1px solid #ffb700;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
 }
 /*remove margin breadcrumb*/
 .breadcrumb, .title_single_area {
@@ -271,7 +285,7 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 	font-weight: 300;
 	margin-left: 71px;
 	color: #586C7D;
-	background-color: #F5F7FA;
+	background-color: #f5f5f5;
 	position: absolute;
 	left: 255px;
 	top: 7px;
@@ -282,21 +296,43 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 	top: 30px;
 	font-size: 13px;
 }
+/*fix for line space on title*/
+.rh-cat-list-title {
+	display: none;
+}
 @media only screen and (max-width: 535px) {
 	.gdrts-rating-user {
 		display: none;
 	}
 }
-@media only screen and (max-width: 440px) {
-	.gdrts-shortcode-wrapper, .gdrts-shortcode-stars-rating, .mobile {
-		display: none;
+@media only screen and (max-width: 768px) {
+	.date, .runtime, .year {
+		margin-top: 5px;
 	}
 	.wp-h1 {
 		margin-bottom: 6px;
 		margin-top: 12px;
 	}
-	.wp-field, .wp_field-meta {
+}
+@media only screen and (max-width: 678px) {
+	.wpcustom-titlebox {
+		border: none;
+		padding: 0;
+		background: none;
+	}
+	.wpcustom-titlebox-title {
+		left: 0;
+		top: -26px;
+		padding: 0 0 15px;
+	}
+	.wp_field {
 		width: 100%;
-		line-height: 25px;
+	}
+	.wp_field-meta {
+		display: inline-block;
+		margin-top: 5px;
+	}
+	.gdrts-shortcode-wrapper, .gdrts-shortcode-stars-rating, .mobile {
+		display: none;
 	}
 }
