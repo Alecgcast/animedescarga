@@ -2,7 +2,7 @@
 Name: Re:DTV Framework
 Site URI: http://animedescarga.ml
 Description: Framework destined to design for website AnimeDescarga impulsed by AnimeDTV, NET.
-Version: 3.0
+Version: 3.2
 Author: Alec G - AnimeDescarga.ml
 Author URI: http://google.com/+AnimeDTV_LA
 */
@@ -276,10 +276,71 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 .rh-cat-list-title {
 	display: none;
 }
+.wpb_wrapper {
+	max-width: none !important;
+}
 /*Responsive*/
-@media only screen and (max-width: 1920px) {
+@media only screen and (min-width: 1800px) and (max-width: 1920px) {
 	.title-slider {
 		font-size: 3em;
+	}
+	.vc_col-sm-3 {
+		width: 22%;
+	}
+	.wp-h1 {
+		font-size: 2.2em;
+	}
+	.extra span {
+		font-size: 1.10777em;
+		line-height: 1.4em;
+	}
+	.genre > a {
+		padding: 0.4em 1.1em;
+		font-size: 0.8877em;
+	}
+	.wpcustom-titlebox-title {
+		font-size: 1.3em;
+		line-height: 21px;
+	}
+	.wpcustom-titlebox > p {
+		font-size: 1.25555em;
+	}
+	.wp_field {
+		font-size: 1.15555em;
+	}
+	.wp_field-meta {
+		font-size: 1.1244em;
+	}
+	.wpflags {
+		width: 24px;
+	}
+	.calidad > a {
+		font-size: 1.3em;
+	}
+	.gdrts-stars-rating {
+		left: 80px;
+	}
+	.gdrts-rating-text > span {
+		left: 83px;
+	}
+	.gdrts-rating-text > strong {
+		padding: 0.4em 0;
+		font-size: 2.2em;
+		width: 2.0777em;
+	}
+	.gdrts-rating-user {
+		margin-left: 82px;
+	}
+}
+@media only screen and (min-width: 769px) and (max-width: 1920px) {
+	.rh-container {
+		width: 88%;
+	}
+	.main-side {
+		width: 70%;
+	}
+	.sidebar {
+		width: 25%;
 	}
 }
 @media only screen and (max-width: 1600px) {
@@ -311,7 +372,7 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 		width: 24px;
 	}
 	.calidad {
-		padding: 4px 9px;
+		padding: 3px 7px;
 	}
 	.gdrts-rating-text > strong {
 		padding: 0.4em 0;
@@ -337,11 +398,13 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 		margin-top: 5px;
 	}
 	.wp-h1 {
-		margin-bottom: 6px;
-		margin-top: 12px;
+		margin-top: 12px !important;
 	}
 	.title-slider {
 		font-size: 2em;
+	}
+	.wpcustom-titlebox > p {
+		font-size: 1em;
 	}
 	.wp_field {
 		font-size: 1em;
@@ -352,6 +415,9 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 	}
 	.wpflags {
 		width: 20px;
+	}
+	.f_text > .f_text_span > div {
+		display: none;
 	}
 }
 @media only screen and (max-width: 678px) {
@@ -465,7 +531,12 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 		margin: 7px 0 2px 0 !important;
 	}
 	.wpsm-divider .solid_divider {
-		margin-top: 38px !important;
-		margin-bottom: 7px !important;
+		margin-bottom: 9px !important;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.wpsm-divider {
+		margin-top: 36px !important;
+		margin-bottom: 9px !important;
 	}
 }
