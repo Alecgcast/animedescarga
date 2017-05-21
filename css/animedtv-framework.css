@@ -333,7 +333,7 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 	}
 }
 @media only screen and (min-width: 769px) and (max-width: 1920px) {
-	.rh-container, .vc_section .vc_row, .centered-container .vc_col-sm-12 > * > .wpb_wrapper {
+	.rh-container, .vc_section .vc_row {
 		width: 88%;
 	}
 	.main-side {
