@@ -342,10 +342,10 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 	.main-side {
 		width: 70%;
 	}
-	aside > .sidebar {
+	aside .sidebar {
 		width: 25%;
 	}
-	div > .sidebar {
+	div .sidebar {
 		width: 88%;
 	}
 }
