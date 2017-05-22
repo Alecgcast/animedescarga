@@ -2,7 +2,7 @@
 Name: Re:DTV Framework
 Site URI: http://animedescarga.ml
 Description: Framework destined to design for website AnimeDescarga impulsed by AnimeDTV, NET.
-Version: 3.2.4
+Version: 3.2.6
 Author: Alec G - AnimeDescarga.ml
 Author URI: http://google.com/+AnimeDTV_LA
 */
@@ -342,10 +342,12 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 	.main-side {
 		width: 70%;
 	}
+	/*sidebar page*/
 	aside .sidebar {
 		width: 25%;
 	}
-	div .sidebar {
+	/*sidebar homepage*/
+	.wpb_wrapper > div .sidebar {
 		width: 88%;
 	}
 }
