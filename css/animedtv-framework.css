@@ -289,7 +289,7 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 	max-width: none !important;
 }
 /*bola dragon*/
-.bola .dragon .fa-star:before {
+.wp-custom-fa-star:before {
     width: 40px;
     height: 40px;
     text-align: center;
@@ -306,7 +306,7 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
     background: -ms-linear-gradient(top,rgba(255,186,0,1) 0%,rgba(255,128,0,1) 100%);
     background: linear-gradient(to bottom,rgba(255,186,0,1) 0%,rgba(255,128,0,1) 100%);
 }
-.bola .dragon > [class*="fa-"]:before {
+[class*="wp-custom-fa-"]:before {
     display: inline-block;
     font-family: FontAwesome;
     font-style: normal!important;
@@ -319,7 +319,7 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
     vertical-align: top;
     margin-right: 10px;
 }
-.fa-star:before {
+.wp-custom-fa-star:before {
     content: "\f005";
 }
 /*Responsive*/
