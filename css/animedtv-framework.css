@@ -294,10 +294,9 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
     height: 40px;
     text-align: center;
     line-height: 40px;
+	font-size: 20px;
     color: rgba(0,0,0,.2);
-    position: absolute;
-    left: 0;
-    top: 0;
+    position: relative;
     border-radius: 20px;
     background: rgb(255,186,0);
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmYmEwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZjgwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -305,18 +304,17 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
     background: -webkit-linear-gradient(top,rgba(255,186,0,1) 0%,rgba(255,128,0,1) 100%);
     background: -ms-linear-gradient(top,rgba(255,186,0,1) 0%,rgba(255,128,0,1) 100%);
     background: linear-gradient(to bottom,rgba(255,186,0,1) 0%,rgba(255,128,0,1) 100%);
+	margin-bottom: 5px;
 }
 [class*="wp-custom-fa-"]:before {
     display: inline-block;
     font-family: FontAwesome;
     font-style: normal!important;
     font-weight: normal!important;
-    font-size: inherit;
-    line-height: inherit;
     text-rendering: geometricPrecision;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    vertical-align: top;
+    vertical-align: middle;
     margin-right: 10px;
 }
 .wp-custom-fa-star:before {
