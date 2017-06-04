@@ -2,7 +2,7 @@
 Name: Re:DTV Framework
 Site URI: http://animedescarga.ml
 Description: Framework destined to design for website AnimeDescarga impulsed by AnimeDTV, NET.
-Version: 3.3.0
+Version: 3.3.2
 Author: Alec G - AnimeDescarga.ml
 Author URI: http://google.com/+AnimeDTV_LA
 */
@@ -288,8 +288,42 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 .wpb_wrapper {
 	max-width: none !important;
 }
+/*bola dragon*/
+.bola .dragon .fa-star:before {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: rgba(0,0,0,.2);
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 20px;
+    background: rgb(255,186,0);
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,rgba(255,186,0,1) 0%,rgba(255,128,0,1) 100%);
+    background: -webkit-linear-gradient(top,rgba(255,186,0,1) 0%,rgba(255,128,0,1) 100%);
+    background: -ms-linear-gradient(top,rgba(255,186,0,1) 0%,rgba(255,128,0,1) 100%);
+    background: linear-gradient(to bottom,rgba(255,186,0,1) 0%,rgba(255,128,0,1) 100%);
+}
+.bola .dragon > [class*="fa-"]:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal!important;
+    font-weight: normal!important;
+    font-size: inherit;
+    line-height: inherit;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.fa-star:before {
+    content: "\f005";
+}
 /*Responsive*/
-@media only screen and (min-width: 1800px) and (max-width: 1920px) {
+@media only screen and (min-width: 1800px) {
 	.title-slider {
 		font-size: 3em;
 	}
@@ -341,25 +375,6 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 		margin-left: 82px;
 	}
 }
-@media only screen and (min-width: 769px) and (max-width: 1920px) {
-	.rh-container, .vc_section .vc_row {
-		width: 88%;
-	}
-	.vc_section .vc_row, .centered-container .vc_col-sm-12 > * > .wpb_wrapper {
-		max-width: none;
-	}
-	.main-side {
-		width: 70%;
-	}
-	/*sidebar page*/
-	aside .sidebar {
-		width: 25%;
-	}
-	/*sidebar homepage*/
-	.wpb_wrapper > div .sidebar {
-		width: 88%;
-	}
-}
 @media only screen and (max-width: 1600px) {
 	.wp-h1 { 
 		font-size: 2em;
@@ -400,6 +415,25 @@ header .header_seven_style .search form.search-form [type="submit"]:hover {
 @media only screen and (max-width: 980px) {
 	.title-slider {
 		font-size: 2.2em;
+	}
+}
+@media only screen and (min-width: 769px) {
+	.rh-container, .vc_section .vc_row {
+		width: 88%;
+	}
+	.vc_section .vc_row, .centered-container .vc_col-sm-12 > * > .wpb_wrapper {
+		max-width: none;
+	}
+	.main-side {
+		width: 70%;
+	}
+	/*sidebar page*/
+	aside .sidebar {
+		width: 25%;
+	}
+	/*sidebar homepage*/
+	.wpb_wrapper > div .sidebar {
+		width: 88%;
 	}
 }
 @media only screen and (min-width: 768px) {
